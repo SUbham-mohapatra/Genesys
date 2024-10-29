@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logistics Company</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="C:\Users\smohapat\OneDrive - Genesys Telecommunications Laboratories, Inc\Desktop\Website\images\logo.jpg" alt="Your Logo" />
+        </div>
+        <h1>MegaCorp Logistics</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>The Mega Way — our promise to you.</h2>
+            <p>We provide fast and reliable shipping services worldwide.</p>
+            <button id="get-quote-btn">Get a Quote</button>
+        </section>
+
+        <script type="text/javascript" charset="utf-8">
+            (function (g, e, n, es, ys) {
+              g['_genesysJs'] = e;
+              g[e] = g[e] || function () {
+                (g[e].q = g[e].q || []).push(arguments)
+              };
+              g[e].t = 1 * new Date();
+              g[e].c = es;
+              ys = document.createElement('script'); ys.async = 1; ys.src = n; ys.charset = 'utf-8'; document.head.appendChild(ys);
+            })(window, 'Genesys', 'https://apps.usw2.pure.cloud/genesys-bootstrap/genesys.min.js', {
+              environment: 'prod-usw2',
+              deploymentId: 'b114d588-d20c-4ec2-bbee-5710174c7fd5'
+            });
+          </script>
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service">
+                <img src="images/air-freight.jpg" alt="Air Freight">
+                <p>Air Freight</p>
+            </div>
+            <div class="service">
+                <img src="images/ocean-freight.jpg" alt="Ocean Freight">
+                <p>Ocean Freight</p>
+            </div>
+            <div class="service">
+                <img src="images/road-transportation.jpg" alt="Road Transportation">
+                <p>Road Transportation</p>
+            </div>
+            <div class="service">
+                <img src="images/warehousing.jpg" alt="Warehousing Solutions">
+                <p>Warehousing Solutions</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="form-response"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fast & Reliable Logistics</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
